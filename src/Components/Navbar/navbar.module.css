@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: rgb(230, 226, 226);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.header__cta {
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+}
+.header__cta a {
+  border-bottom: 2px solid black;
+  display: inline;
+  visibility: visible;
+  /* display: contents; */
+}
+.header__products {
+  border: 1px solid rgb(0, 255, 38);
+}
+.icon i {
+  background-color: gray;
+  font-size: 40px;
+}
+
+.total {
+  float: right;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (max-width: 550px) {
+  .header__cta a {
+    display: none;
+  }
+}

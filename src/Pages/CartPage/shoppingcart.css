@@ -1,0 +1,26 @@
+
+
+.cartpage{
+
+ width: 100%;
+ height: 200px;
+ padding: 100px;
+}
+
+.cartitem{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+.cartitem img{
+   width: 50px;
+   height: 80px;
+}
+.delete button{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+}

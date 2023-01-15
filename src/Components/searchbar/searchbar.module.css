@@ -1,0 +1,51 @@
+
+.serachbar{
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50PX;
+   position: fixed;
+   left: 0;
+   right: 0;
+   margin-top: 70px;
+
+}
+.serach_items{
+  background-color: gray;
+  position: fixed;
+  left: 50;
+  right: 60;
+  /* width: 35%; */
+  display: flex;
+}
+.serach_items input{
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  height: 35px;
+  width:80%;
+}
+.icon{
+  padding: 9px;
+  background-color: rgba(138, 143, 143, 0.475);
+}
+.filter{
+  background-color: rgb(180, 166, 166);
+  display: inline;
+}
+.filter i{
+width: 20px;
+height: 30px;
+}
+
+@media (min-width: 550px) {
+ 
+  .filter{
+    background-color: rgb(180, 166, 166);
+    display: none;
+  }
+
+}

@@ -1,0 +1,44 @@
+
+.mainbox{
+    
+    width: 20%;
+    height: 35rem;
+    padding: 35px;
+    position: relative;
+    
+}
+.mainbox .insidebox {
+
+    position: fixed;
+    width: 17%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.mainbox .insidebox div{
+    margin: 3px;
+}
+div label{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.mainbox div input {
+    background-color: rgb(176, 34, 34);
+}
+
+@media (max-width: 551px){
+    .mainbox{
+    
+        width: 20%;
+        height: 35rem;
+        padding: 35px;
+        position: relative;
+        display:none;
+    }
+    .mainbox .insidebox {
+        position: fixed;
+        
+    }
+}
