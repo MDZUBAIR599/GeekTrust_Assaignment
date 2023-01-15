@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { Appcontext } from '../../Context/AppontextProvider'
 import styles from "./searchbar.module.css"
-function Search_Bar() {
+function SearchBar() {
   const {state,dispatch}=useContext(Appcontext);
   const {products}=state;
   const [QueryText,SetQueryText]=useState('');
@@ -38,4 +38,4 @@ function Search_Bar() {
   )
 }
 
-export default Search_Bar
+export default SearchBar

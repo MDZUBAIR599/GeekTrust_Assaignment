@@ -11,7 +11,7 @@ export function ProductsCards({products}) {
       payload:{
         id:item.id,
         imageURL:item.imageURL,
-        name:item. name,
+        name:item.name,
         price:item.price,
         quantity:item.quantity,
         qty:item.qty,

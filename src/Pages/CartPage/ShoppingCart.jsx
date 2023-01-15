@@ -6,11 +6,7 @@ function ShoppingCart() {
 
   const { cart } = state;
   const [total, setTotal] = useState();
-  useEffect(() => {
-    setTotal(
-      cart.reduce((acc, curr) => acc + Number(curr.price) * curr.qty, 0)
-    );
-  }, [cart]);
+ 
 
   const changeQty = (id, qty) => {
     return dispatch({
@@ -21,7 +17,11 @@ function ShoppingCart() {
       },
     });
   };
-
+  useEffect(() => {
+    setTotal(
+      cart.reduce((acc, curr) => acc + Number(curr.price) * curr.qty, 0)
+    );
+  }, [cart]);
   return (
     <div className="cartpage">
       <b>Shopping Cart</b>

@@ -4,7 +4,7 @@ import { FetchProducts } from "../Api/api";
 import "../App.css";
 import FilterBar from "../Components/Filter/FilterBar";
 import ProductListing from "../Components/Products/ProductListing";
-import Search_Bar from "../Components/searchbar/SearchBar";
+import SearchBar from "../Components/searchbar/SearchBar";
 import { Appcontext } from "../Context/AppontextProvider";
 
 
@@ -15,7 +15,7 @@ function Homepage() {
   })
   return (
     <>
-      <Search_Bar />
+      <SearchBar />
       <div className="App">
         <FilterBar />
         <ProductListing />

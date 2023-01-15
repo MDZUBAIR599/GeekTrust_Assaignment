@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import styles from "./navbar.module.css";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { Appcontext } from "../../Context/AppontextProvider";
 function Navbar() {
   const { state } = useContext(Appcontext);
